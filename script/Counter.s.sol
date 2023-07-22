@@ -2,11 +2,13 @@
 pragma solidity ^0.8.13;
 
 import "forge-std/Script.sol";
+import "src/GitHubRegistry.sol";
 
-contract CounterScript is Script {
+contract DeployGitHubRegistry is Script {
     function setUp() public {}
 
     function run() public {
         vm.broadcast();
+        new GitHubRegistry();
     }
 }
