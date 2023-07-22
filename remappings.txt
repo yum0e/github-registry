@@ -1,0 +1,2 @@
+sismo-connect-solidity/=lib/sismo-connect-solidity/src/
+@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/
